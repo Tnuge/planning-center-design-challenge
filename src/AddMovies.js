@@ -22,7 +22,7 @@ export default function AddMovies({movies}) {
     <div className="Add-movie-section">
       <label for="rating">Rating</label>
       <div className='Star-rating'>
-          <img src='star.svg'></img><img src='star.svg'></img><img src='star.svg'></img><img src='star.svg'></img><img src='star.svg'></img><img src='star.svg'></img>
+          <img src='star.svg'></img><img src='star.svg'></img><img src='star.svg'></img><img src='star.svg'></img><img src='star.svg'></img>
       </div><br></br>
     </div>
         

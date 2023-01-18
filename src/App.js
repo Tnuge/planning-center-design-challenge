@@ -5,11 +5,13 @@ import MovieList from './MovieList'
 
 
 function App() {
-  const [movies, setMovies] = useState(['movie1', 'movie2','movie3'])
+  const [movies, setMovies] = useState(['Death Becomes Her', 'Ghost Busters', "Harry Potter - Sorcerer's Stone", 'Jurassic Park', 'The Sandlog'])
   const arrayOfMovies = [
-    {name: 'Iron Man', category:'Action/Adventure', rating: 4},
-    {name:'Toy Story', category:'Drama', rating: 3},
-    {name:'Kung Pow', category:'Comedy', rating: 5}
+    {name: 'Death Becomes Her', category:'Comedy', rating: 3},
+    {name:'Ghost Busters', category:'Comedy', rating: 5},
+    {name:"Harry Potter - Sorcerer's Stone", category:'Drama', rating: 4},
+    {name:'Jurassic Park', category:'Action/Adventure', rating: 4},
+    {name:'The Sandlog', category:'Comedy', rating: 4}
   ];
   return (
     <>

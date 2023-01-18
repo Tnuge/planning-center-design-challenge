@@ -3,8 +3,6 @@
 export default function AddMovies({movies}) {
   return (
     <>
-     {/* {movieList} */}
-     {/* {listOfMovies} */}
     <div className="Add-movie-section">
       <label for="name">Name</label>
       <input id="name" type="text" placeholder='Name of the movie'/><br></br>
